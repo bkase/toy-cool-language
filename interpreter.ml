@@ -234,7 +234,7 @@ let example : Value.t =
                 ; a=
                     Type.(
                       Fun
-                        ( Fun (Var (Universal.Var "alpah"), Sum (One, One))
+                        ( Fun (Var (Universal.Var "alpha"), Sum (One, One))
                         , Fun
                             ( Vec
                                 ( Term_or_mono.Var (Universal.Var "n")
