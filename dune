@@ -1,0 +1,4 @@
+(executable
+  (libraries core async)
+  (preprocess (pps ppx_inline_test ppx_jane))
+  (name interpreter))
